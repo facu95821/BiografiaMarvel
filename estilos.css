@@ -1,0 +1,11 @@
+.texto{
+    font-size: 110%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-nav {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px; 
+}
+.textocolor{
+  color: aqua!important;
+}

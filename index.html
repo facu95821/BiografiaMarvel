@@ -3,42 +3,304 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mi biografia Bootstrap</title>
+    <title>biografia Marvel</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
   </head>
-
+  
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href=""><img src="png/logo2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mi biografia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Intereses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Familia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mascotas</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+          
+        <Img src="./png/marvel_Logo.png" alt="marvel" width="80" height="35">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#inicio">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#marvel-comic">MARVEL COMIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#superhéroes">SUPERHÉROES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#el-rey">EL REY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#curiosidades">CURIOSIDADES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
   </header>
 
   <body>
-    <h1>Hello, world!</h1>
+  <main>
+    <div class="container col-xxl-8 px-4 py-5" id="inicio">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./png/manoironman.png" class="d-block mx-lg-auto img-fluid" alt="manoironman" width="700" height="500"  loading="lazy">
+        </div>
+
+        <div class="col-lg-6">
+          <img src="./png/marvelcomic.png" class="d-block mx-lg-auto img-fluid" alt="marvelcomic" width="700" height="500"  loading="lazy"></img>
+          <p class="lead py-2">Hace un tiempo, se definió a Marvel como un universo en constante
+            evolución. Probablemente es una de las mejores descripciones que se
+            pueden hacer. Al contrario que otros cosmos de ficción, La Casa de
+            las Ideas siempre ha reflejado en sus obras las complejas realidades
+            de la sociedad. Desde los años sesenta.....</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button type="button" class="btn btn-outline-dark">VER MAS</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5" id="marvel-comic">
+      <div class="row flex-lg-row row-cols-md-2 align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./png/hulk.PNG" class="d-block mx-lg-auto img-fluid" alt="hulk"  width="700" height="500"  loading="lazy">
+        </div>
+
+        <div class="col-10 col-sm-8 col-lg-6"> 
+          <img src="./png/añomarvel.PNG" alt="añomarvel" class="d-block mx-lg-auto img-fluid" width="700" height="500"  loading="lazy">
+            <div class="d-flex flex-column gap-2">
+              <h4>¿Cuándo se creó Marvel Comics?</h4>
+              <p>Posteriormente la empresa sería conocido como Marvel Comics, nació en 1938 
+              con el nombre de Timely Publications de la mano de Martin Goodman, con una pequeña editorial 
+              de revistas pulp llamada Western Fiction Publishing. 2 Al igual que otros editores de pulps de 
+              la época, Goodman decidió ampliar su editorial hacia el negocio de los cómics en
+              1939, y para ello contrató los servicios de Funnies Inc.
+              </p>
+            </div>
+  
+            <div class="d-flex flex-column gap-2">
+              <h4>¿Qué es Marvel Comics?</h4>
+              <p>Es una editorial norteamericana de cómics. conocida popularmente
+              como "La casa de las ideas" por la creación de numerosos personajes emblemáticos del género 
+              de los superhéroes. Algunos de sus cómics más conocidos son Los 4 Fantásticos, Spider-Man, 
+              Daredevil, Capitán América, Los Vengadores, Iron Man, Hulk, Wolverine y los X-Men. Desde los 
+              años 60 la compañía constituye una de las mayores editoriales de este género.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-4 py-5" id="superhéroes">
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        
+        <div class="col-10 col-sm-8 col-lg-6"> 
+          <img src="./png/comics.png" alt="añomarvel" class="d-block mx-lg-auto img-fluid" width="700" height="500"  loading="lazy">
+            <div class="d-flex flex-column gap-2">
+              <h4>universo Marvel</h4>
+              <p>La paleta de la narración conocida como el universo de Marvel se conocio en el año 1961, 
+                cuando Goodman respondió al interés en los libros de superhéroes por el escrito encargado. 
+                Stan lee y el artista Jack Kirby crearon los cuatro fantásticos.Lee escribió la mayoría 
+                de los libros de Marvel durante ese tiempo y Kirby y Ditko fueron los artistas más
+                importantes e influyentes.
+              </p>
+            </div>
+  
+            <div class="d-flex flex-column gap-2">
+              <h4>¿De dónde obtuvo su nombre?</h4>
+                <p>El título del primer cómics de Timerly Comics, en 1939, fue Comics Marvel Numero 1º. 
+                La compañia continuó lanzando Cómics bajo el nombre de Marvel durante las décadas
+                del año 1940 y del 1950. Timely comics cambió su nombre a Atlas Comics en 1951 y se 
+                convirtió en Marvel comics a principios de la década de 1960, recordando el título que solía usar.
+                </p>
+            </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./png/namor.png" alt="namor" class="d-block mx-lg-auto img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-black text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <img src="./png/araña.png" alt="araña" class="d-block mx-lg-auto img-fluid"></img>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4 text-white">
+        <div class="col">
+          <div class="bg-blackcard">
+            <img src="./png/hombrearaña.png" class="card-img-top" alt="hombrearaña">
+            <div class="card-body">
+              <h5 class="card-title">Hombre Araña</h5>
+              <p class="card-text">Poderes regenerativos que le permiten curar sus heridas a gran velocidad.
+                Como resultado de su rapida curación enveje lentamente y sus cualidades
+                físicas son la de un hombre de mediana edad en plena forma a pesar de tener más de 100 años.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="bg-black card">
+            <img src="./png/ironman.PNG" class="card-img-top" alt="ironman">
+            <div class="card-body">
+              <h5 class="card-title">Iron Man</h5>
+              <p class="card-text">depende principalmente de su armadura para luchar y sobrevivir a la batalla, pero el Capitán
+                América le enseñó a luchar por su cuenta sin la armadura. Detección de Campos de Energía,Campo de Fuerza Magnético,
+                Emanación de Energía</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="bg-black card">
+            <img src="./png/antorchahumana.png" class="card-img-top" alt="antorchahumana">
+            <div class="card-body">
+              <h5 class="card-title">Antorcha Humana</h5>
+              <p class="card-text">ganó varios poderes sobrehumanos por la radiación cósmica, los cuales están 
+                relacionados con el fuego. tiene la capacidad de envolver su cuerpo en plasma 
+                ardiente, es capaz de volar y también generar poderosas corrientes y / o bolas de fuego.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="bg-black card">
+            <img src="./png/thor.png" class="card-img-top" alt="thor">
+            <div class="card-body">
+              <h5 class="card-title">Thor</h5>
+              <p class="card-text">Fuerza y resistencia,invulnerabilidad a las enfermedades terrestres, tiene acceso a 
+                “la fuerza de Odín”, una vasta fuente de energía cósmica que le permite acceder a un gran número de efectos:
+                potenciar sus capacidades físicas, encantar a terceros.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center px-4 py-5" id="el-rey"> 
+      <img src="./png/stanlee.png" alt="araña" class="d-block mx-lg-auto img-fluid">
+      <div class="row">
+        <div class="col-lg-4 px-4 py-5">
+          <h5>¿Qué personajes creo?</h5>
+          <p>Es principalmente conocido por haber cocreado personajes icónicos del mundo del cómic tales
+            como Spider-Man, X-Men, Los 4 Fantásticos, Hulk, Iron Man, Thor, Daredevil, Doctor Strange, Black
+            Panther, Ant-Man y Bruja Escarlata, entre otros muchos superhéroes, casi siempre acompañado
+            de los dibujantes y escritores Steve Ditko y Jack Kirby.</p>
+            <img src="./png/frase2.png" alt="frase2" class="d-block mx-lg-auto img-fluid py-5 "> 
+        </div>
+        <div class="col-lg-4 px-4 py-5">
+          <img src="./png/stanlee2.png" alt="stanlee2" class="d-block mx-lg-auto img-fluid py-5">
+        </div>
+        <div class="col-lg-4 px-4 py-5">
+          <img src="./png/frase1.png" alt="frase1" class="d-block mx-lg-auto img-fluid py-5"> 
+          <h5>Su Importancia en marvel</h5>
+          <p>El trabajo de Stan Lee fue fundamental para expandir Marvel Comics, llevándola de una pequeña 
+            casa publicitaria a una gran corporación multimedia. Todavía hoy, los cómics de Marvel se 
+            distinguen por indicar siempre «Stan Lee presenta» en los rótulos de presentación. También
+            tuvo un programa televisivo en History Channel en donde buscaba superhumanos «reales».</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container text-white">
+      <img src="./png/curiosidades.png" alt="curiosidades" class="d-block mx-lg-auto img-fluid">
+  
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center py-5">
+        <div class="d-flex flex-column align-items-start gap-2">
+          <img src="./png/logan.png" alt="logan" class="d-block mx-lg-auto img-fluid">
+        </div>
+  
+        <div class="row row-cols-2 row-cols-sm-2 g-4">
+          <div class="d-flex flex-column gap-2">
+            <div class="h-100 p-3 bg-black rounded-3">
+                <h4 class="text-center">1</h4>
+                <p class="text-center">Marvel patentó la palabra ‘zombie’ en 1975 en la serie Tale of the Zombie. duró hasta 1996, 
+                  cuando la palabra ‘zombie’ se volvió tan común que no era posible aplicar la ley de 
+                  patentes.</p>
+            </div>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div class="h-100 p-3 bg-black rounded-3">
+              <h4 class="text-center">2</h4>
+              <p class="text-center">En sus primeras apariciones del personaje Hulk iba a ser de color gris, pero debido a un error de 
+                imprenta provocó que el personaje cambiara su tono de piel a verde.</p>
+            </div>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div class="h-100 p-3 bg-black rounded-3">
+              <h4 class="text-center">3</h4>
+              <p class="text-center">Stan Lee creó más de 300 personajes, que incluyen 179 villanos, 60 héroes, 30 razas alienígenas, 
+              15 monstruos… Quizá quiso representar el Congreso de los Diputados.</p>
+            </div>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div class="h-100 p-3 bg-black rounded-3">
+              <h4 class="text-center">4</h4>
+              <p class="text-center">La primera aparición Wolverine tenía el objetivo de ser el rival del hulk. Sin embargo,bse 
+              convirtió en uno de los personajes más rentables y apreciados tanto para la compañía como para 
+              los lectores.</p>
+            </div>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div class="h-100 p-3 bg-black rounded-3">
+              <h4 class="text-center">5</h4>
+              <p class="text-center">El color favorito de Spider-Man es el verde ¿Por qué? EL Duende Verde, el Escorpión, el Buitre, 
+              Mysterio, el Doctor Octupus y el Lagarto llevan trajes de color verde.</p>
+            </div>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div class="h-100 p-3 bg-black rounded-3">
+              <h4 class="text-center">6</h4>
+              <p class="text-center">El superhéroe con el mejor superpoder de todo el universo Marvel es Eye-Scream. Se trata 
+                de un villano mutante cuya habilidad es poder transformarse en un helado de cualquier 
+                sabor.</p>
+            </div>   
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+      <footer class="bg-black text-white pt-5 pb-4" id="contacto">
+        <div class="col-md-5 col-lg-4"></div>
+        <div class="pb-4 d-flex justify-content-center">
+          <img src="./png/marvel_Logo.png" alt="marvel Logo" class="d-block mx-lg-auto img-fluid" width="90" height="55"  loading="lazy">
+          </div>
+        <div class="text-center pb-2">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+            </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-pinterest"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-whatsapp"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul> 
+          </div>
+        </div>
+        <p class="text-center text-white">&copy; Copyright © 2022 Operado por Marvel Inc. Todos los derechos reservados</p>
+      </footer>
+  </main>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
